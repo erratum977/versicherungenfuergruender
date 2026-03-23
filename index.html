@@ -267,7 +267,7 @@
             align-items: center;
             gap: 8px;
             font-size: 14px;
-            color: var(--ink-muted);
+            color: var(--ink-soft);
         }
 
         .hero__trust-item strong {
@@ -414,7 +414,7 @@
         .feat__icon--amber { background: var(--amber-soft); }
         .feat__icon--blue { background: rgba(37,99,235,0.08); }
 
-        .feat h4 {
+        .feat h3 {
             font-family: var(--sans);
             font-size: 15px;
             font-weight: 600;
@@ -952,11 +952,12 @@
 <body>
 
 <!-- NAV -->
+<a href="#main-content" class="sr-only" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;">Zum Inhalt springen</a>
 <nav class="nav" id="nav">
     <div class="container">
         <div class="nav__inner">
             <a href="/" class="nav__logo">
-                <img src="https://einfachnurversicherungen.de/wp-content/uploads/2024/08/Logo_neu_rund.png" alt="ENV Logo" width="36" height="36" loading="eager">
+                <img src="https://einfachnurversicherungen.de/wp-content/uploads/2024/08/Logo_neu_rund.png" alt="ENV Logo" width="36" height="36" loading="eager" style="aspect-ratio:1/1;object-fit:contain;">
                 <span class="nav__logo-text">ENV Versicherungsmakler</span>
             </a>
             <a href="https://cal.com/sebastian-steinhuber/kennenlernen?utm_source=gruender-lp&utm_medium=nav"
@@ -968,6 +969,7 @@
 </nav>
 
 <!-- S1: HERO -->
+<main id="main-content">
 <section class="hero">
     <div class="hero__orb"></div>
     <div class="hero__orb-2"></div>
@@ -1046,21 +1048,21 @@
                 <div class="feat fade-in">
                     <div class="feat__icon feat__icon--teal">&#128172;</div>
                     <div>
-                        <h4>Verst&auml;ndlich</h4>
+                        <h3>Verst&auml;ndlich</h3>
                         <p>Kein Versicherungsdeutsch. Du erfahrst in einfachen Worten, was du brauchst.</p>
                     </div>
                 </div>
                 <div class="feat fade-in">
                     <div class="feat__icon feat__icon--amber">&#128200;</div>
                     <div>
-                        <h4>300+ Versicherer verglichen</h4>
+                        <h3>300+ Versicherer verglichen</h3>
                         <p>Kein Einzelanbieter. Wir finden den besten Tarif f&uuml;r deine Situation.</p>
                     </div>
                 </div>
                 <div class="feat fade-in">
                     <div class="feat__icon feat__icon--blue">&#128274;</div>
                     <div>
-                        <h4>Kostenlos f&uuml;r dich</h4>
+                        <h3>Kostenlos f&uuml;r dich</h3>
                         <p>Wir werden von den Versicherern bezahlt. Gleicher Preis &mdash; bessere Beratung.</p>
                     </div>
                 </div>
@@ -1263,6 +1265,8 @@
         </div>
     </div>
 </section>
+
+</main>
 
 <!-- FOOTER -->
 <footer class="footer">
