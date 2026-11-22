@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://xn--versicherungenfrgrnder-6lcd.de/sitemap.xml
